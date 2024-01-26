@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="tefem_logo.png">
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="tefem_logo.png" alt="gold_logo" width="50px" height="50px">
+        </div>
+        
+        <div class="menu-icon" id="menu1">
+            &#9776; <!-- Unicode character for the hamburger icon -->
+          </div>
+        <nav class="nav-bar" id="nav-bar">
+            <ul class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="workout.html">Workout Programs</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html" class="active">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="first-heading">
+            <p class="track">Track Your Progress & More!</p>
+            <p class="start">Start your fitness journey today</p>
+        </div>
+
+        <div class="input-box">
+            <div class="image1">
+                <img src="focused_woman.png" alt="focused_woman" width="500px" height="400px" id="image1">
+            </div>
+            <form action="signup.php" method="post" class="container">
+                <div class="input">
+                    <span id="span1"></span>
+                    <input type="text" placeholder="Enter your name" id="name">
+                </div>
+                <div class="input">
+                    <span id="span2"></span>
+                    <input type="text" placeholder="xyz@gmail.com" id="email">
+                </div>
+                <div class="input">
+                    <span id="span3"></span>
+                    <input type="text" placeholder="08001112223" id="phone">
+                </div>
+                <div class="notification">
+                    <input type="checkbox">
+                    <p>Send me notifications for new program launches, website or store updates (optional).
+                    </p>
+                </div>
+            </form>
+            
+        </div>
+
+        <div>
+            <button id="button">Create Account</button>
+        </div>
+    </main>
+
+    <script src="signup.js"></script>
+</body>
+</html>

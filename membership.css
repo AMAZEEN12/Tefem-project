@@ -1,0 +1,55 @@
+.join{
+    font-size: 70px;
+    font-weight: 500;
+    margin: 20px 20px 20px 80px;
+    padding: 20px;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.background{
+    background-color: #3C3C3C;
+    padding: 40px 20px;
+    text-align: center;
+}
+.month{
+    color: #FFED00;
+    font-weight: 700;
+    font-size: 22px;
+}
+.gyms{
+    font-size: 18px;
+    font-weight: 400;
+}
+.reg{
+    font-size: 20px;
+    font-weight: 500;
+}
+button{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #FFED00;
+    border-radius: 15px;
+    background: transparent;
+}
+button:hover{
+    background: #FFED00;
+    transition: 0.7s;
+}
+@media screen and (min-width:320px) and (max-width: 480px){
+    .flex{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .join{
+        margin-left: -10px;
+        font-size: 30px;
+    }
+}

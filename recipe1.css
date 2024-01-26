@@ -1,0 +1,197 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: black;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+li a.active{
+    border-bottom: 3px solid white;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.formula{
+    background-image: url(formula.png);
+    background-size: cover;
+    height: 120vh;
+
+}
+.formula img{
+    margin-top: 80vh;
+    padding: 20px;
+    margin-left: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    margin: 30px;
+    padding: 20px;
+}
+.french{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.text{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.method{
+    margin: 30px;
+    padding: 20px;
+}
+.list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 20px; /* Provide padding for the list items */
+  }
+  
+.list li {
+    position: relative;
+    padding-left: 20px; /* Adjust the space for the custom bullet */
+  }
+  
+.list li::before {
+    content: '•'; /* Use a custom bullet (in this case, a dot) */
+    color: white; /* Set the color of the bullet to white */
+    position: absolute;
+    left: 0;
+  }
+  .buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+.contact{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    left: 45vw;
+    position: absolute;
+}
+#image1{
+    border-radius: 50px;
+}
+.container{
+    position: relative;
+}
+
+.input1{
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    line-height: 40px;
+    position: absolute;
+    padding-left: 30px;
+}
+.input2{
+    width: 50%;
+    height: 50px;
+    top: 17vh;
+    left: 3%;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    line-height: 40px;
+    position: absolute;
+    padding-left: 30px;
+}
+.input3{
+    width: 50%;
+    height: 50px;
+    top: 30vh;
+    left: 3%;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    line-height: 40px;
+    position: absolute;
+    padding-left: 30px;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+
+::placeholder{
+    text-align: left;
+    color: white;
+    line-height: 20px;
+}
+#input{
+    height: 120px;
+}
+.last{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    left: 210px;
+}
+.last p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.main{
+    position: absolute;
+}  

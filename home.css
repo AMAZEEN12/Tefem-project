@@ -1,0 +1,473 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    color: white;
+}
+.menu-icon{
+    display: none;
+}
+body{
+    background: black;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+li a.active{
+    border-bottom: 3px solid white;
+}
+
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.make{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 70px;
+}
+*{
+    font-family: 'Outfit', sans-serif; 
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    position: relative;
+    top: 80px;
+}
+#home1{
+    float: right;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.text{
+    margin-left: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.get{
+    margin: 20px 20px 20px 30px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    width: 20%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.get:hover{
+    background-color: #ffed00;
+    color: black;
+    transition: 0.7s ease-in-out;
+    border: none;
+}
+.free{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 20px;
+    clear: both;
+}
+.flex-container{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+.woman{
+    margin: 20px;
+    width: 200px;
+    opacity: 0.3;
+}
+.flex-container p{
+    writing-mode: vertical-lr;
+    rotate: -180deg;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+.beginner{
+    left: 100px;
+    bottom: 30vh;
+}
+.moderate{
+    bottom: 30vh;
+    left: 27%;
+}
+.weight{
+    bottom: 30vh;
+    left: 47%;
+}
+.no{
+    bottom: 30vh;
+    right: 27%;
+}
+.strength{
+    bottom: 30vh;
+    right: 100px;
+}
+.button{
+    padding: 20px;
+    width: 80%;
+    border: 1px solid yellow;
+    background-color: black;
+    margin-left: 25px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.button:hover{
+    background: yellow;
+    color: black;
+    transition: 0.7s;
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+.view{
+    padding: 20px;
+    background: black;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    width: 15%;
+    font-weight: 600;
+}
+.view:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.7s;
+}
+.merch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-left: 0;
+}
+.home5{
+    z-index: 1;
+    position: relative;
+    top: -20px;
+}
+.rectangle{
+    background-color: grey;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    margin-top: 30vh;
+    margin-left: 90px;
+}
+.rectangle1{
+    background-color: grey;
+    width: 180px;
+    height: 80px;
+    margin-top: 24vh;
+    margin-left: 10px;
+    position: absolute;
+}
+.rectangle2{
+    background-color: grey;
+    width: 180px;
+    height: 80px;
+    margin-top: 24vh;
+    margin-left: -35px;
+    position: absolute;
+}
+.rectangle3{
+    background-color: grey;
+    width: 180px;
+    height: 80px;
+    margin-top: 24vh;
+    margin-left: 10px;
+    position: absolute;
+}
+.move{
+    margin-right: 90px;
+}
+.gallery{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.home8{
+    border-radius: 25px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.recipe{
+    left: 35%;
+    top: 20%;
+    position: absolute;
+    width: 30%;
+}
+.recipe p{
+    font-size: 10px;
+    line-height: 1.5;
+}
+.recipe1{
+    background: url(main-vector.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-color: transparent;
+    border: 1px solid yellow;
+    padding: 20px 20px 20px 10px;
+    width: 50%;
+    border-radius: 20px;
+    background-position-x: 120px;
+    background-position-y: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.recipe1:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.7s;
+    background-blend-mode: difference;
+}
+.home13{
+    display: flex;
+    margin-bottom: 20px;
+}
+.home13 p{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.contact{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input input{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+
+::placeholder{
+    text-align: left;
+    color: white;
+    line-height: 20px;
+}
+#input{
+    height: 120px;
+}
+.last{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.last p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (min-width:320px) and (max-width: 480px){
+    .menu-icon{
+        display: block;
+        font-size: 40px;
+        text-align: right;
+        margin-top: 40px;
+        position: absolute;
+        top: -3vh;
+        left: 120vw;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        z-index: 1;
+        top: 10vh;
+        right: -10px;
+        background-color: hsl(231, 11%, 63%);
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 40px;
+        box-shadow: 2px 2px 6px hsl(0, 1%, 44%);
+    }
+    li a.active{
+        border: none;
+        background-color: black;
+    }
+    .image1{
+        display: none;
+    }
+    #home1{
+        width: 500px;
+        height: 400px;
+        margin-right: -150px;
+    }
+    button{
+        width: 250px;
+    }
+    input[type='text']{
+        width: 250px;
+    }
+    #image1{
+        width: 300px;
+        height: 200px;
+    }
+    .get{
+        width: 200px;
+    }
+    .flex-container{
+        margin-top: 60px;
+    }
+    .free{
+        margin-top: 90px;
+    }
+    .delete{
+        display: none;
+    }
+    .woman{
+        width: 150px;
+        height: 400px;
+    }
+    .moderate{
+        left: 74vw;
+    }
+    .view{
+        width: 150px;
+        padding: 5px;
+        margin-right: -200px;
+    }
+    .merch{
+        margin-top: 90px;
+    }
+    img[src='home5.png']{
+        width: 300px;
+        height: 250px;
+    }
+    .rectangle{
+        margin-top: 170px;
+    }
+    .homey{
+        margin-top: -30px;
+    }
+    .index{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    #home10{
+        width: 250px;
+    }
+    #home8{
+        width: 250px;
+    }
+    #food{
+        width: 200px;
+        height: 300px;
+    }
+    .recipe{
+        left: 80%;
+        width: 215px;
+    }
+    .last{
+        margin-top: 120px;
+        width: 450px;
+    }
+    
+}

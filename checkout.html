@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="tefem_logo.png">
+    <title>Checkout Page</title>
+</head>
+    <body class="section">
+    <div class="section1">
+        <div class="image">
+        <img src="tefem_logo.png" alt="">
+        </div>
+        <div class="information">
+            <p class="contact">Contact Information</p>
+            <p class="contact"><a href="login.html">Already have an account? Login</a></p>
+        </div>
+        <div>
+            <form action="checkout.php">
+                <div class="text">
+                <input type="text" class="type" placeholder="Enter your phone number" required>
+            </div>
+            <div class="flex1">
+                <input type="checkbox">
+                <p>Email me with new updates</p>
+            </div>
+            </form>
+            <div>
+                <p class="shipping">Shipping Address</p>
+            </div>
+            <form action="checkout.php">
+                <div class="flex2">
+                    <input type="text" class="type1" placeholder="First Name">
+                    <input type="text" class="type2" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="text" class="type3" placeholder="Enter your name">
+                    <input type="text" class="type4" placeholder="Enter your name">
+                </div>
+                <div class="flex2">
+                    <input type="text" class="type5" placeholder="First Name">
+                    <input type="text" class="type6" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="text" class="type7" placeholder="Enter your name">
+                </div>
+
+
+            </form>
+            <div>
+                <p class="warning">Please keep the phone number up to 11 characters</p>
+            </div>
+            <div class="flex3">
+                <input type="checkbox">
+                <p>Save this information for next time</p>
+            </div>
+            <div class="button">
+            <button onclick="location.href='shipping.html'">Continue to shipping</button>
+            <a href="store.html"> < Return to shopping</a>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div>
+            <div class="flex">
+                <div class="store">
+                    <img src="store2.png" alt="" class="store2" width="180px" height="170px">
+                </div>
+                <div class="division">
+                    <p class="tote">TOTE BAG <br></p>
+                    <p class="amount">Rs <span>1900</span></p>
+                   <p class="write">Sed ut perspiciatis unde omnis i <br>
+                    totam reinventore veritatis et <br>
+                    veritatis et </p>
+                </div>
+                
+        </div>
+        <div class="subtotal">
+            <p>SUBTOTAL: Rs 1900</p>
+        </div>
+
+    </div>
+    </div>
+    </body>
+</html>

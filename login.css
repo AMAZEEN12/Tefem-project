@@ -1,0 +1,210 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-icon{
+    display: none;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+li a.active{
+    border-bottom: 3px solid black;
+}
+li a.active:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.track{
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.first-heading{
+    margin: 20px;
+    padding: 20px;
+}
+.start{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 400; 
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    width: 70%;
+    height: 7vh;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+::placeholder{
+    text-align: left;
+
+    color: black;
+}
+.notification{
+    display: flex;
+}
+.notification p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+button{
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    color: black;
+    margin: 20px 40px;
+    padding: 20px;
+    text-align: center;
+}
+li a.active{
+    border-bottom: 3px solid black;
+}
+.forgot{
+    padding-left: 125px;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+.horizontal{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.line{
+    border-bottom: 2px solid gray;
+    width: 12%;
+    margin: 0 10px 10px 15px;
+}
+.google{
+    background: url(google.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-left: 40px;
+    background-position: 110px center;
+    background-position-y: 20px;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+}
+.terms{
+    font-size: 10px;
+    color: gray;
+    font-weight: 200;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.span{
+    color: hsl(0, 100%, 67%);
+    font-size: 8px;
+    font-weight: 700;
+    margin-left: 350px;
+    white-space: nowrap;
+}
+@media screen and (min-width:320px) and (max-width: 480px){
+    .menu-icon{
+        display: block;
+        font-size: 40px;
+        text-align: right;
+        margin-top: 40px;
+        position: absolute;
+        top: -3vh;
+        left: 80vw;
+    }
+    .span{
+        margin-left: 150px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        z-index: 1;
+        top: 10vh;
+        right: -10px;
+        background-color: hsl(231, 11%, 63%);
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 40px;
+        box-shadow: 2px 2px 6px hsl(0, 1%, 44%);
+    }
+    li a.active{
+        border: none;
+        background-color: white;
+    }
+    .image1{
+        display: none;
+    }
+    button{
+        width: 250px;
+    }
+    .horizontal{
+        margin-left: 10px;
+        width: 80%;
+    }
+    .line{
+        width: 33%;
+    }
+    .google{
+        background-position-x: 40px;
+    }
+    input[type='text']{
+        width: 250px;
+    }
+}

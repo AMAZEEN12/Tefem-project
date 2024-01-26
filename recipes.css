@@ -1,0 +1,619 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: black;
+    height: 200vh;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+
+.menu-icon{
+    display: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+li a.active{
+    border-bottom: 3px solid white;
+}
+
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+.text{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.recipe{
+    left: 35%;
+    top: 20%;
+    position: absolute;
+    width: 25vw;
+}
+.recipe p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.recipe1{
+    background: url(main-vector.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-color: transparent;
+    border: 1px solid yellow;
+    padding: 20px 20px 20px 10px;
+    width: 50%;
+    border-radius: 20px;
+    background-position-x: 110px;
+    background-position-y: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.recipe1:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.7s;
+    background-blend-mode: difference;
+}
+.home13{
+    display: flex;
+    margin-bottom: 20px;
+}
+.home13 p{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.home8{
+    border-radius: 25px;
+}
+.high{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+}
+.start{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+.first{
+    margin: 20px 10px;
+    padding: 20px;
+}
+.image1{
+    border-radius: 35px;
+}
+.time{
+    background-color: #ffed00;
+    top: 16%;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.time1{
+    background-color: #ffed00;
+    top: 42%;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.time2{
+    background-color: #ffed00;
+    top: 67%;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.time3{
+    background-color: #ffed00;
+    top: 92%;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.main{
+    position: relative;
+}
+.time1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-left: -10px;
+}
+.time2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-left: -10px;
+}
+.time3 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-left: -10px;
+}
+.time p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-left: -10px;
+}
+.button1{
+    margin: 20px 50px;
+    width: 65%;
+    padding: 20px;
+    background-color: transparent;
+    background-image: url(main-vector.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 145px;
+    background-position-y: 21px;
+    border: 1px solid #ffed00;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button1:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.7s;
+    background-blend-mode: difference;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gap{
+    margin-bottom: -40px;
+}
+/*.main{
+    margin-top: -130px;
+}*/
+.buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+.contact{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input input{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+textarea{
+    width: 27%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 25px;
+    resize: none;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+textarea:focus{
+    outline: none;
+    border: 2px solid yellow;
+}
+
+::placeholder{
+    text-align: left;
+    padding: 5px 15px;
+    color: hsl(0, 1%, 44%);
+    line-height: 20px;
+}
+#input{
+    height: 120px;
+}
+.last{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.last p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+    
+@media screen and (min-width:320px) and (max-width: 480px){
+    .menu-icon{
+        display: block;
+        font-size: 40px;
+        text-align: right;
+        margin-top: 40px;
+        position: absolute;
+        top: -3vh;
+        left: 110vw;
+    }
+    body{
+        width: 100px;
+    }
+    .span{
+        margin-left: 150px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        z-index: 1;
+        top: 10vh;
+        right: -200px;
+        background-color: hsl(231, 11%, 63%);
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 40px;
+        box-shadow: 2px 2px 6px hsl(0, 1%, 44%);
+    }
+    li a.active{
+        border: none;
+        background-color: black;
+    }
+    .hide{
+        display: none;
+    }
+    .small{
+        width: 300px;
+        height: 400px;
+        margin-left: -20px;
+    }
+    button{
+        width: 250px;
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    input[type='text']{
+        width: 250px;
+    }
+    .recipe{
+        width: 190px;
+        left: 87vw;
+        margin-right: 90px;
+    }
+    .recipe1{
+        width: 90%;
+        font-size: 15px;
+        background-position-x: 140px;
+    }
+    .button1{
+        font-size: 15px;
+    }
+    .high{
+        font-size: 40px;
+    }
+    .reduce{
+        width: 100px;
+        height: 100px;
+    }
+    .next-flex{
+        display: flex;
+        margin-top: 40px;
+    }
+    .home13{
+        margin-left: -2vw;
+        flex-direction: column;
+        width: 35vw;
+    }
+    .home13 p{
+        width: 30vw;
+    }
+    .high{
+        width: 150%;
+    }
+    .main1{
+        margin-top: 10vh;
+        text-align: center;
+        width: 300px;
+    }
+    .flex{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .start{
+        width: 150%;
+        font-size: 20px;
+    }
+    .time{
+        margin-top: 175vh;
+        display: none;
+    }
+    .time1{
+        display: none;
+    }
+    .time2{
+        display: none;
+    }
+    .time3{
+        display: none;
+    }
+    .below{
+        width: 300%;
+    }
+    .image1{
+        width: 250px;
+        height: 300px;
+    }
+    .flex{
+        margin-left: 10vw;
+    }
+    .button1{
+        margin-left: 40px;
+        font-size: 8px;
+        background-position-x: 120px;
+        background-position-y: 15px;
+        padding: 20px 20px;
+    }
+    .last{
+        width: 120%;
+    }
+    .lorem{
+        width: 350px;
+    }
+    textarea{
+        width: 240px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:759px){
+    li a{
+        white-space: nowrap;
+        font-size: 16px;
+        text-align: center;
+    }
+    .nav-bar{
+        margin-left: 17vw;
+    }
+    .home13{
+        margin-left: 55vw;
+        margin-right: 5vw;
+    }
+    .home13 p{
+        white-space: nowrap;
+    }
+    .recipe{
+        left: 78vw;
+        width: 45%;
+    }
+    .recipe1{
+        width: 80%;
+        padding-left: 20px;
+        background-position-x: 134px;
+        background-position-y: 18px;
+    }
+    .image1{
+        width: 220px;
+        height: 270px;
+    }
+    .flex{
+        margin-left: 85%;
+    }
+    .button1{
+        font-size: 10px;
+        background-position-x: 130px;
+        background-position-y: 18px;
+    }
+    .time{
+        width: 23%;
+    }
+    .time1{
+        width: 23%;
+    }
+    .time2{
+        width: 23%;
+    }
+    .time3{
+        width: 23%;
+    }
+    .input-box{
+        width: 95%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #image1{
+        width: 300px;
+        height: 250px;
+        margin-left: 60vw;
+    }
+    .lorem{
+        width: 160%;
+    }
+    .container{
+        width: 140%;
+    }
+    .input{
+        width: 400%;
+    }
+    .last{
+        width: 170%;
+        margin-top: 90px;
+    }
+    .below{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:760px) and (max-width:900px){
+    li a{
+        white-space: nowrap;
+        font-size: 15px;
+        text-align: center;
+    }
+    .nav-bar{
+        margin-left: 35vw;
+    }
+    .home13{
+        margin-left: 55vw;
+        margin-right: 5vw;
+    }
+    .home13 p{
+        white-space: nowrap;
+    }
+    .recipe{
+        left: 55vw;
+        width: 45%;
+    }
+    .recipe1{
+        width: 53%;
+        background-position-x: 144px;
+        background-position-y: 20px;
+        font-size: 17px;
+    }
+    .button1{
+        font-size: 18px;
+        background-position-x: 164px;
+    }
+    .image1{
+        width: 280px;
+        height: 330px;
+    }
+    .flex{
+        margin-left: 400px;
+    }
+    .time{
+        width: 15%;
+    }
+    .time1{
+        width: 15%;
+    }
+    .time2{
+        width: 15%;
+    }
+    .time3{
+        width: 15%;
+    }
+    .input-box{
+        width: 95%;
+    }
+    #image1{
+        margin-left: 150px;
+    }
+    .container{
+        width: 150%;
+    }
+    .last{
+        width: 140%;
+        margin-top: 90px;
+    }
+}
+

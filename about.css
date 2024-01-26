@@ -1,0 +1,298 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.menu-icon{
+    display: none;
+}
+body{
+    background: black;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+li a:hover{
+    background-color: yellow;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+li a.active{
+    border-bottom: 3px solid white;
+}
+
+li a:hover{
+    border-color: transparent;
+}
+.logo{
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.get{
+    font-size: 75px;
+    font-weight: 400;
+}
+.span{
+    font-weight: 700;
+}
+.join{
+    font-size: 18px;
+    font-weight: 400;
+}
+.image{
+    position: relative;
+}
+
+.space{
+    margin: 30px;
+    padding: 20px;
+    position: absolute;
+    top: -60px;
+}
+.create{
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.background{
+    background-color:  #3B3B3B;
+    width: 240px;
+    height: 270px;
+    border: none;
+    border-radius: 15px;
+    top: -30vh;
+    margin-left: 90px;
+    position: relative;
+}
+.vector11{
+    left: 29%;
+    top: 8%;
+    position: absolute;
+}
+.vector6{
+    left: 36%;
+    top: 14%;
+    position: absolute;
+}
+.paragraph{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.paragraph1{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.paragraph2{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.vector8{
+    position: absolute;
+    top: 23%;
+    left: 42.5%;
+}
+.vector9{
+    position: absolute;
+    top: 23%;
+    left: 54.5%;
+}
+.vector10{
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+.main{
+    margin-top: -130px;
+}
+.buy{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+}
+.contact{
+    margin: 20px;
+    padding: 20px;
+}
+.lorem{
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-box{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.image1{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#image1{
+    border-radius: 50px;
+}
+.input input{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.input input:focus{
+    border: 2px solid yellow;
+    outline: none;
+}
+::placeholder{
+    text-align: left;
+    color: white;
+    line-height: 20px;
+}
+#trying{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    line-height: 40px;
+    padding: 20px;
+    resize: none;
+}
+.last{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.last p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (min-width:320px) and (max-width: 480px){
+    .menu-icon{
+        display: block;
+        font-size: 40px;
+        text-align: right;
+        margin-top: 40px;
+        position: absolute;
+        top: -3vh;
+        left: 75vw;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        z-index: 1;
+        top: 10vh;
+        right: -10px;
+        background-color: hsl(231, 11%, 63%);
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 40px;
+        box-shadow: 2px 2px 6px hsl(0, 1%, 44%);
+    }
+    li a.active{
+        border: none;
+        background-color: black;
+        padding-right: 80px;
+    }
+    .image1{
+        display: none;
+    }
+    .create{
+        width: 250px;
+        margin-top: 3vh;
+    }
+    #image{
+        width: 340px;
+        height: 320px;
+    }
+    #trying{
+        width: 74%;
+    }
+    .get{
+        font-size: 30px;
+        width: 270px;
+    }
+    .join{
+        width: 250px;
+        font-size: 12px;
+    }
+    .flex{
+        display: none;
+    }
+    .container{
+        margin-top: -5vh;
+    }
+    input[type='text']{
+        width: 200px;
+    }
+    .main{
+        margin-top: 14vh;
+    }
+    .last{
+        margin-top: 2vh;
+    }
+    .last p{
+        width: 120%;
+    }
+}

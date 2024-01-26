@@ -1,0 +1,166 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: linear-gradient(to right, white 60%, #D9D9D9 40%);
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.section1{
+    background: white;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+}
+.section2{
+    /*background: grey;*/
+    height: auto;
+    margin-top: 0;
+    width: 40%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    left: -40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 35vh;
+    right: 20px;
+}
+.store{
+    background-color: #3C3C3C;
+    border-radius: 25px;
+    width: 180px;
+    height: 200px;
+    margin-left: -20px;
+    position: relative;
+}
+.store2{
+    margin-top: 10px;
+    left: -10px;
+    position: absolute;
+}
+.tote{
+    font-size: 28px;
+    font-weight: 700;
+}
+.amount{
+    font-size: 15px;
+    font-weight: 400;
+}
+.subtotal{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    top: 68vh;
+    margin: 20px;
+    right: 15%;
+}
+.write{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.division{
+    margin-left: 40px;
+ 
+}
+.contact{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 65vh;
+
+}
+.contact input{
+    padding: 20px;
+    width: 50vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 35px;
+    color: black;
+}
+.contact a{
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    text-decoration: none;
+    color: black;
+}
+.contact1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 82vh;
+}
+.contact1 input{
+    padding: 20px;
+    width: 50vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+.contact1 a{
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    text-decoration: none;
+    color: black;
+}
+.return{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: -100vh;
+
+}
+.return a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.return a:hover{
+    color: #ffed00;
+    text-decoration: underline;
+}
+.return button{
+    margin-left: 23vw;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 20vw;
+    font-size: 15px;
+    font-weight: 400;
+}
+.return button:hover{
+    background-color: #ffed00;
+    transition: 0.7s ease-in-out;
+    border: none;
+}
